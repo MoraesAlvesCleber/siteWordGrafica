@@ -16,11 +16,13 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    top: 2px;
 }
 .icons{
     cursor: pointer;
+    width: 25px;
+    height: 25px;
 }
+
 .icon-cel{
     font-size: 26px;
     color:#fff;
@@ -28,9 +30,14 @@
 }
 
 /*Nav*/
+
+.hamburguer{
+    display: none;
+}
+
 header{
     position: relative;
-    height: 20vh;
+    height: 22vh;
 }
 
 .navbar{
@@ -53,7 +60,9 @@ header{
 
 .logo{
     position: relative;
-    top: 20px;
+    width: 250px;
+    height: 250px;
+    top: 0.5em;
 }
 
 .menu{
@@ -61,7 +70,7 @@ header{
     font-weight: 600;
     display: flex;
     gap: 52px;
-    font-size: 24px;
+    font-size: 1.2em;
     letter-spacing: 5px;
 }
 

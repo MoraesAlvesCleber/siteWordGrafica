@@ -1,8 +1,8 @@
 .categorias {
     width: 90%;
     max-width: 1376px;
-    padding: 1rem 0;
     margin: 0 auto;
+    margin-bottom: 1.8em;
 }
 
 .categorias h2 {
