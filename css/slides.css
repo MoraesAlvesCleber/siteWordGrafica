@@ -1,0 +1,16 @@
+#banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner figure {
+    width: 100%;
+    margin: 0;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    position:relative;
+    top: 18px;
+}

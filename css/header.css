@@ -1,0 +1,71 @@
+
+/*social icons*/
+.container-social{
+    position: relative;
+    background-color: #4dc8fa;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    top: 2px;
+}
+.icons{
+    cursor: pointer;
+}
+.icon-cel{
+    font-size: 26px;
+    color:#fff;
+    font-weight: 500;
+}
+
+/*Nav*/
+header{
+    position: relative;
+    height: 20vh;
+}
+
+.navbar{
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    width: 100vw;
+    height: 16vh;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}  
+
+.div-logo{
+    top: 14px;
+    left: 50px;
+    position: relative;
+     
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+}
+
+.menu{
+    font-family: var(--font1);
+    font-weight: 600;
+    display: flex;
+    gap: 52px;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:#4dc8fa;
+}

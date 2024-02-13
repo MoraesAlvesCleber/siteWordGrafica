@@ -1,0 +1,6 @@
+Roxo : F60EAE
+Azul Claro : 4AC7FE
+Vermelho : F9020B
+Verde : 9FFB01
+Cinza : BFA9B3
+Laranja : FE8418

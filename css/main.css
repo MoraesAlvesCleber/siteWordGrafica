@@ -1,0 +1,33 @@
+
+figure{
+    opacity: 0.8;
+}
+
+.container-empresa {
+    background-color:#fff;
+    width: 100vw;
+}
+
+h1 {
+    font-family: var(--font1);
+    color:#4dc8fa;
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.titulo-conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-apresentacao{
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 24px;
+    width: 60%;
+    text-align: center;
+    line-height: 50px;
+}
