@@ -1,5 +1,23 @@
+@import url(./reset/reset.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./slides.css);
+@import url(./carrocel-produtos.css);
+@import url(./footer.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 :root{
+
+    /*fontes*/
 --font1:'Lato', sans-serif;
+
+  /*cores*/
+
+--azulPrincipal:#4dc8fa;
+--brancoEspecial: #F2F2F2;
+--cinzaClaro:#E0E0E0;
  
+}
+body{
+    background-color: var(--brancoEspecial);
 }

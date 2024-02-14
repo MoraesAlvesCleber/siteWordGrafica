@@ -4,13 +4,13 @@ figure{
 }
 
 .container-empresa {
-    background-color:#fff;
+    background-color:var(--brancoEspecial);
     width: 100vw;
 }
 
 h1 {
     font-family: var(--font1);
-    color:#4dc8fa;
+    color:var(--azulPrincipal);
     padding: 1.3em;
     font-size: 2em;
     text-align: center;
