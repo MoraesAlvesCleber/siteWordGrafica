@@ -34,8 +34,24 @@
     letter-spacing: 2.5px;
     align-items: center;
     margin-bottom: 1em;
+    transform: translateX(-500px);
+    /* Inicia o elemento fora da tela */
+}
+
+.animated {
     animation: moveRight 1s ease-out forwards;
 }
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 
 .icon {
     margin-right: 20px;
@@ -121,16 +137,6 @@
     flex-direction: column;
 }
 
-@keyframes moveRight {
-    0% {
-        transform: translateX(-100px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
 .icon {
     margin-right: 10px;
 }
@@ -169,6 +175,8 @@ h3 {
 }
 
 textarea {
-    resize: none; /* impede o redimensionamento do textarea */
-    line-height: 50px; /* altura da linha */
+    resize: none;
+    /* impede o redimensionamento do textarea */
+    line-height: 50px;
+    /* altura da linha */
 }
