@@ -8,14 +8,14 @@ figure{
     width: 100vw;
 }
 
-h1 {
+.titulo-apresentacao {
     font-family: var(--font1);
     color:var(--azulPrincipal);
     padding: 1.3em;
     font-size: 2em;
     text-align: center;
     font-weight: bolder;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 .conteudo-apresentacao{
@@ -33,26 +33,40 @@ h1 {
     
 }
 
-/* Regra de mídia para smartphones pequenos (max-width: 320px) */
+/*Responsividade*/
+
 @media (max-width: 320px) {
-    /* Estilos para smartphones pequenos */
     .titulo-apresentacao{
+        font-size: 1.5em;
+    }
+    .texto-apresentacao{
         font-size: 1em;
+        line-height: 1.4em;
+        width: 80%;
+        margin-bottom: 2em;
     }
 }
 
-/* Regra de mídia para smartphones médios (min-width: 321px) and (max-width: 414px) */
 @media (min-width: 321px) and (max-width: 414px) {
-    /* Estilos para smartphones médios */
     .titulo-apresentacao{
+        font-size: 1.5em;
+    }
+    .texto-apresentacao{
         font-size: 1em;
+        line-height: 1.4em;
+        width: 80%;
+        margin-bottom: 2em;
     }
 }
 
-/* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
 @media (min-width: 415px) and (max-width: 768px) {
-    /* Estilos para smartphones grandes */
     .titulo-apresentacao{
+        font-size: 1.5em;
+    }
+    .texto-apresentacao{
         font-size: 1em;
+        line-height: 1.4em;
+        width: 80%;
+        margin-bottom: 2em;
     }
 }
