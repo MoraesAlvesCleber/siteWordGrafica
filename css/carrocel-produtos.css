@@ -75,41 +75,36 @@
 
 .carousel-figure {
     max-width: 320px;
-    /* Ajuste conforme necessário */
     margin: 0 auto;
 }
 
-
-/* Adicione ou modifique essas regras no seu CSS */
 #owl-thumbs .owl-nav button.owl-prev,
 #owl-thumbs .owl-nav button.owl-next {
     font-size: 2rem;
-    /* Ajusta o tamanho das setas conforme necessário */
+
     position: absolute;
     top: 50%;
-    /* Posiciona as setas verticalmente no meio do carrossel */
+
     transform: translateY(-65%);
-   
+
 
 }
 
 #owl-thumbs .owl-nav button.owl-prev {
     left: 0;
     font-size: 130px;
-    /* Posiciona a seta esquerda no lado esquerdo do carrossel */
+
 }
 
 #owl-thumbs .owl-nav button.owl-next {
     right: 0;
     font-size: 130px;
-    /* Posiciona a seta direita no lado direito do carrossel */
+
 }
 
-/* Adicione ou modifique essas regras no seu CSS */
 #owl-thumbs .owl-dots {
     position: absolute;
     bottom: 1rem;
-    /* Ajusta a posição vertical dos pontos de navegação */
     width: 100%;
     text-align: center;
 }
@@ -117,18 +112,13 @@
 #owl-thumbs .owl-dot {
     display: none;
     margin: 0 0.5rem;
-    /* Ajusta o espaçamento horizontal entre os pontos de navegação */
     width: 10px;
-    /* Ajusta o tamanho dos pontos conforme necessário */
     height: 10px;
-    /* Ajusta o tamanho dos pontos conforme necessário */
     background-color: #000;
-    /* Cor dos pontos de navegação */
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
 
 #owl-thumbs .owl-dot.active {
     background-color: var(--brancoEspecial);
-    /* Cor dos pontos de navegação quando ativos */
 }

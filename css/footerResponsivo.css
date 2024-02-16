@@ -1,0 +1,23 @@
+@media (max-width: 320px) {
+    /* Estilos para smartphones pequenos */
+    .section-footer{
+        flex-direction: column;
+    }
+}
+
+/* Regra de mídia para smartphones médios (min-width: 321px) and (max-width: 414px) */
+@media (min-width: 321px) and (max-width: 414px) {
+    /* Estilos para smartphones médios */
+    .section-footer{
+        flex-direction: column;
+    }
+    
+}
+
+/* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
+@media (min-width: 415px) and (max-width: 768px) {
+    /* Estilos para smartphones grandes */
+    .section-footer{
+        flex-direction: column;
+    }
+}

@@ -1,4 +1,5 @@
 
+//Carrocel
 $(document).ready(function () {
     $("#banner").owlCarousel({
         items: 1,
@@ -11,28 +12,7 @@ $(document).ready(function () {
     })
 })
 
-
-//document.addEventListener("DOMContentLoaded", function () {
-  //  window.addEventListener("scroll", function () {
-  //      var element1 = document.querySelector(".c1");
-  //      var element2 = document.querySelector(".c2");
-   //     var element3 = document.querySelector(".c3");
-   //     var element4 = document.querySelector(".c4");
-  //      var position = element1.getBoundingClientRect();
-  //      var position = element2.getBoundingClientRect();
-  //      var position = element3.getBoundingClientRect();
-   //     var position = element4.getBoundingClientRect();
-
-        // Verifica se o elemento está no viewport
-   //     if (position.top < window.innerHeight && position.bottom >= 0) {
- //           element1.classList.add("animated");
- //           element2.classList.add("animated");
-  //          element3.classList.add("animated");
-  //          element4.classList.add("animated");
- //       }
- //   });
-//});
-
+//Movimento
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         // Lista de classes dos elementos alvos

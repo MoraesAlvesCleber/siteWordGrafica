@@ -96,18 +96,13 @@
 
 }
 
-/* Estilo para o input */
 .div-input {
     position: relative;
 }
 
-/*.div-input input[type="text"] {
-    padding-left: 50px; /* Espaço à esquerda para a imagem 
-  }*/
 .div-input img {
     position: absolute;
     left: 20px;
-    /* Ajuste a posição horizontal da imagem dentro do input */
     top: 50%;
     transform: translateY(-50%);
     width: 16px;

@@ -18,7 +18,7 @@ h1 {
     letter-spacing: 10px;
 }
 
-.titulo-conteudo{
+.conteudo-apresentacao{
     display: flex;
     justify-content: center;
 }
@@ -31,4 +31,28 @@ h1 {
     text-align: center;
     line-height: 50px;
     
+}
+
+/* Regra de mídia para smartphones pequenos (max-width: 320px) */
+@media (max-width: 320px) {
+    /* Estilos para smartphones pequenos */
+    .titulo-apresentacao{
+        font-size: 1em;
+    }
+}
+
+/* Regra de mídia para smartphones médios (min-width: 321px) and (max-width: 414px) */
+@media (min-width: 321px) and (max-width: 414px) {
+    /* Estilos para smartphones médios */
+    .titulo-apresentacao{
+        font-size: 1em;
+    }
+}
+
+/* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
+@media (min-width: 415px) and (max-width: 768px) {
+    /* Estilos para smartphones grandes */
+    .titulo-apresentacao{
+        font-size: 1em;
+    }
 }
