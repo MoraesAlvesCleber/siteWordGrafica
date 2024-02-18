@@ -22,6 +22,17 @@
         left: 1em;
         width: 90%;
     }
+    .footer-endereco{
+        flex-direction: column;
+        height: 40vh;
+    }
+    .moving-image{
+        width: 150px;
+        height: 150px;
+    }
+    .container-copyright{
+        font-size: 0.6em;
+    }
 }
 
 /* Regra de mídia para smartphones médios (min-width: 321px) and (max-width: 414px) */
@@ -52,6 +63,17 @@
         left: 1em;
         width: 90%;
     }
+    .footer-endereco{
+        flex-direction: column;
+        height: 40vh;
+    }
+    .moving-image{
+        width: 150px;
+        height: 150px;
+    }
+    .container-copyright{
+        font-size: 0.6em;
+    }
 }
 
 /* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
@@ -78,5 +100,16 @@
         position: relative;
         left: 1em;
         width: 90%;
+    }
+    .footer-endereco{
+        flex-direction: column;
+        height: 40vh;
+    }
+    .moving-image{
+        width: 150px;
+        height: 150px;
+    }
+    .container-copyright{
+        font-size: 0.6em;
     }
 }
