@@ -13,3 +13,18 @@
     height: auto;
     position:relative;
 }
+@media (max-width: 320px){
+    #banner img{
+        height: 33vh;
+    }
+}
+@media (min-width: 321px) and (max-width: 414px){
+    #banner img{
+        height: 33vh;
+    }
+}
+@media (min-width: 415px) and (max-width: 1350px){
+    #banner img{
+        height: 33vh;
+    }
+}
