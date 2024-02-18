@@ -77,7 +77,7 @@
 }
 
 /* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
-@media (min-width: 415px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 1350px) {
     /* Estilos para smartphones grandes */
     .section-footer{
         flex-direction: column;
