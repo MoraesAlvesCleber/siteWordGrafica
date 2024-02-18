@@ -2,6 +2,25 @@
     /* Estilos para smartphones pequenos */
     .section-footer{
         flex-direction: column;
+        height: 126vh;
+    }
+    .text-contact{
+        font-size: 1.1em;
+    }
+    .container-formulario{
+        width: 90vw;
+        margin: 2em 0;
+    }
+    .div-input{
+        left: 1em;
+    }
+    .input-dados{
+        width: 75%;
+    }
+    .button-submit{
+        position: relative;
+        left: 1em;
+        width: 90%;
     }
 }
 
@@ -10,8 +29,29 @@
     /* Estilos para smartphones médios */
     .section-footer{
         flex-direction: column;
+        height: 126vh;
     }
-    
+    .icon{
+        margin: 0 1em;
+    }
+    .text-contact{
+        font-size: 1.1em;
+    }
+    .container-formulario{
+        width: 90vw;
+        margin: 2em 0;
+    }
+    .div-input{
+        left: 1em;
+    }
+    .input-dados{
+        width: 75%;
+    }
+    .button-submit{
+        position: relative;
+        left: 1em;
+        width: 90%;
+    }
 }
 
 /* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
@@ -19,5 +59,24 @@
     /* Estilos para smartphones grandes */
     .section-footer{
         flex-direction: column;
+        height: 126vh;
+    }
+    .text-contact{
+        font-size: 1.1em;
+    }
+    .container-formulario{
+        width: 90vw;
+        margin: 2em 0;
+    }
+    .div-input{
+        left: 1em;
+    }
+    .input-dados{
+        width: 75%;
+    }
+    .button-submit{
+        position: relative;
+        left: 1em;
+        width: 90%;
     }
 }

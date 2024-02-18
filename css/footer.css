@@ -132,10 +132,6 @@
     flex-direction: column;
 }
 
-.icon {
-    margin-right: 10px;
-}
-
 .footer-endereco {
     display: flex;
     align-items: center;
