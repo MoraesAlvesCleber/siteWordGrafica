@@ -153,13 +153,13 @@ h3 {
 }
 
 .titulo-endereco{
-    bottom: 8em;
+    bottom: 3em;
     position: relative;
 }
 
 .moving-image{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     position: relative;
 }
 
@@ -174,7 +174,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: var(--azulPrincipal);
-    height: 6vh;
+    height: 15vh;
     font-size: 1em;
     font-family: var(--font1);
     font-weight: 500;
