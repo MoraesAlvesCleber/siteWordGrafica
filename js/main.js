@@ -32,15 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Menu lateral
-
-document.querySelector('.hamburguer').addEventListener('click', function() {
-    document.getElementById('menu-lateral').style.right = '0';
-});
-
-document.querySelector('#menu-lateral').addEventListener('click', function() {
-    this.style.right = '-300px';
-});
-
+ 
 
 
 
