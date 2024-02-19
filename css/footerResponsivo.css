@@ -24,7 +24,7 @@
     }
     .footer-endereco{
         flex-direction: column;
-        height: 50vh;
+        height: 34vh;
     }
     .moving-image{
         width: 250px;
@@ -34,7 +34,7 @@
         font-size: 0.6em;
     }
     .titulo-endereco{
-        bottom: 1em;
+        bottom: 8em;
     }
     h3{
         font-size: 2em;

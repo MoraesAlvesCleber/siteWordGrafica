@@ -137,6 +137,8 @@
     align-items: center;
     justify-content: center;
     height: 34vh;
+    top: 1.5em;
+    position: relative;
 }
 
 h3 {
@@ -144,15 +146,27 @@ h3 {
     color: var(--azulPrincipal);
     font-weight: 600;
     font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    top: 1em;
+    position: relative;
 }
+
+.titulo-endereco{
+    bottom: 8em;
+    position: relative;
+}
+
 .moving-image{
     width: 250px;
     height: 250px;
+    position: relative;
 }
 
 .endereco {
     font-size: 20px;
     font-family: var(--font1);
+    text-align: center;
 }
 
 .container-copyright {
