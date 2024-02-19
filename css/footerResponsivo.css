@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media screen and (max-width: 1100px){
     /* Estilos para smartphones pequenos */
     .section-footer{
         flex-direction: column;
@@ -27,89 +27,18 @@
         height: 40vh;
     }
     .moving-image{
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
     .container-copyright{
         font-size: 0.6em;
+    }
+    .titulo-endereco{
+        bottom: 1em;
+    }
+    h3{
+        font-size: 2em;
     }
 }
 
-/* Regra de mídia para smartphones médios (min-width: 321px) and (max-width: 414px) */
-@media (min-width: 321px) and (max-width: 414px) {
-    /* Estilos para smartphones médios */
-    .section-footer{
-        flex-direction: column;
-        height: 126vh;
-    }
-    .icon{
-        margin: 0 1em;
-    }
-    .text-contact{
-        font-size: 1.1em;
-    }
-    .container-formulario{
-        width: 90vw;
-        margin: 2em 0;
-    }
-    .div-input{
-        left: 1em;
-    }
-    .input-dados{
-        width: 75%;
-    }
-    .button-submit{
-        position: relative;
-        left: 1em;
-        width: 90%;
-    }
-    .footer-endereco{
-        flex-direction: column;
-        height: 40vh;
-    }
-    .moving-image{
-        width: 150px;
-        height: 150px;
-    }
-    .container-copyright{
-        font-size: 0.6em;
-    }
-}
-
-/* Regra de mídia para smartphones grandes (min-width: 415px) and (max-width: 768px) */
-@media (min-width: 415px) and (max-width: 1350px) {
-    /* Estilos para smartphones grandes */
-    .section-footer{
-        flex-direction: column;
-        height: 126vh;
-    }
-    .text-contact{
-        font-size: 1.1em;
-    }
-    .container-formulario{
-        width: 90vw;
-        margin: 2em 0;
-    }
-    .div-input{
-        left: 1em;
-    }
-    .input-dados{
-        width: 75%;
-    }
-    .button-submit{
-        position: relative;
-        left: 1em;
-        width: 90%;
-    }
-    .footer-endereco{
-        flex-direction: column;
-        height: 40vh;
-    }
-    .moving-image{
-        width: 150px;
-        height: 150px;
-    }
-    .container-copyright{
-        font-size: 0.6em;
-    }
-}
+ 
