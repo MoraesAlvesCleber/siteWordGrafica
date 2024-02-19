@@ -38,10 +38,6 @@
 
 /*Nav*/
 
-.hamburguer{
-    display: none;
-}
-
 header{
     position: relative;
     height: 26vh;
@@ -85,4 +81,19 @@ header{
 a{
     text-decoration: none;
     color:var(--azulPrincipal);
+}
+
+.mobile-menu-icon{
+    display: none;
+
+}
+
+@media screen and (max-width: 1100px){
+    .mobile-menu-icon{
+        display: block;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
 }
