@@ -27,8 +27,8 @@
         height: 34vh;
     }
     .moving-image{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     .container-copyright{
         font-size: 0.8em;
@@ -38,6 +38,11 @@
     }
     h3{
         font-size: 2em;
+        top: 1.5em;
+    }
+    .endereco{
+        position: relative;
+        top: 32px;
     }
 }
 
