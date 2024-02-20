@@ -1,15 +1,38 @@
- .menu-lateral{
+ .menu-lateral {
     display: none;
  }
- 
- @media screen and (max-width: 1100px){
-   .menu{
-      display: none;
-   }
-    .logo{
-      right: 5rem;
+
+ @media screen and (max-width: 1100px) {
+    .menu {
+       display: none;
+    }
+
+    .logo {
+       right: 5rem;
+    }
+
+    .menu-lateral {
+       display: block;
+       position: fixed;
+       width: 60%;
+       height: 93vh;
+       background-color: lightgray;
+       z-index: 12;
+       top: 46px;
+       right: -660px;
+    }
+
+    .menu-lateral-ul {
+       display: flex;
+       width: 60%;
+       height: 93vh;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 5em;
+       font-size: 1.2em;
+    }
+    .menu-lateral-ul li a {
+      color: black;
     }
  }
-
-   
- 
