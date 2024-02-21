@@ -37,7 +37,7 @@
        flex-direction: column;
        justify-content: center;
        align-items: flex-start;
-       row-gap: 5em;
+       row-gap: 4em;
        left: 40px;
     }
     .icon-close {
