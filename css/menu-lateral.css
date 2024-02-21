@@ -24,6 +24,7 @@
     }
 
     .menu-lateral-ul {
+      position: relative;
        font-family: var(--font1);
        font-weight: 600;
        font-size: 1.4em;
@@ -33,9 +34,9 @@
        height: 93vh;
        flex-direction: column;
        justify-content: center;
-       align-items: center;
+       align-items: flex-start;
        row-gap: 5em;
-       
+       left: 40px ;
     }
 
     .menu-lateral-ul li a {
@@ -44,7 +45,7 @@
 
     .icon-close {
        position: relative;
-       top: 66px;
-       left: 232px;
+       top: 4em;
+       left: 3em;
     }
  }
