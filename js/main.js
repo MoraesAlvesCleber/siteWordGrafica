@@ -32,7 +32,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Menu lateral
- 
+
+function menuHamburguer() {
+    var menu = document.getElementById("menu-lateral");
+    if (menu.style.right === "-660px") {
+        menu.style.right = "0";
+    } else {
+        menu.style.right = "-660px";
+    }
+}
+
 
 
 

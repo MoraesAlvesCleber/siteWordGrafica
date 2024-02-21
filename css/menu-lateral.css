@@ -20,9 +20,14 @@
        z-index: 12;
        top: 46px;
        right: -660px;
+       transition: right 0.5s ease;
     }
 
     .menu-lateral-ul {
+       font-family: var(--font1);
+       font-weight: 600;
+       font-size: 1.4em;
+       letter-spacing: 5px;
        display: flex;
        width: 60%;
        height: 93vh;
@@ -30,9 +35,16 @@
        justify-content: center;
        align-items: center;
        row-gap: 5em;
-       font-size: 1.2em;
+       
     }
+
     .menu-lateral-ul li a {
-      color: black;
+       color: black;
+    }
+
+    .icon-close {
+       position: relative;
+       top: 66px;
+       left: 232px;
     }
  }
