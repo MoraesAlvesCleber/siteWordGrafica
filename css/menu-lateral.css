@@ -16,16 +16,18 @@
        position: fixed;
        width: 60%;
        height: 93vh;
-       background-color: lightgray;
+       background-color:var(--brancoEspecial);
        z-index: 12;
        top: 46px;
        right: -660px;
        transition: right 0.5s ease;
+       border:ridge;
     }
 
     .menu-lateral-ul {
-      position: relative;
+       position: relative;
        font-family: var(--font1);
+       color:var(--azulForte);
        font-weight: 600;
        font-size: 1.4em;
        letter-spacing: 5px;
@@ -36,13 +38,8 @@
        justify-content: center;
        align-items: flex-start;
        row-gap: 5em;
-       left: 40px ;
+       left: 40px;
     }
-
-    .menu-lateral-ul li a {
-       color: black;
-    }
-
     .icon-close {
        position: relative;
        top: 4em;
