@@ -13,14 +13,17 @@
     /*fontes*/
 --font1:'Lato', sans-serif;
 
-  /*cores*/
+  /*cores do logo*/
 
---azulPrincipal:#4dc8fa;
+--azulPrincipal:#0aa6eb;
 --brancoEspecial: #F2F2F2;
 --cinzaClaro:#E0E0E0;
---azulForte:#4d1cfe;
---laranjado:#f58017;
---roxo:#e526fb;
+--azulForte:#3844b8;
+--laranjado:#f19b31;
+--roxo:#6c1cb4;
+--roxoFraco:#c175c6;
+--vermelho:#e4252d;
+--verde: #accc24;
  
 }
 body{
